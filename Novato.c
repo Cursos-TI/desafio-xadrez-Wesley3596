@@ -9,6 +9,7 @@ int main(){
   printf("1. Torre:\n");
   printf("2. Bispo:\n");
   printf("3. Rainha:\n");
+  printf("4. Cavalo:\n");
   printf("Escolha uma peca: \n");
   scanf("%d", &opcao);
 
@@ -39,6 +40,21 @@ int main(){
           
         } 
         break;
+
+        case 4:
+        printf("Movendo Cavalo:\n"); //(duas para baixo, uma para a esquerda) em L..
+
+        for (numero = 0  ; numero < 1 ; numero++)
+        {
+          for (numero = 0; i <= 2; i++)
+          {
+            printf("BAIXO .. \n");
+          }
+          printf("ESQUERDA .. \n");
+          
+        } 
+        break;
+
         default:
         printf("Opcao invalida\n");
         break;
