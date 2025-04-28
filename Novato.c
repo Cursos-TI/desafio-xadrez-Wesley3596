@@ -46,7 +46,7 @@ int main(){
 
         for (numero = 0  ; numero < 1 ; numero++)
         {
-          for (numero = 0; i <= 2; i++)
+          for (numero = 0; numero < 2; numero++)
           {
             printf("BAIXO .. \n");
           }
